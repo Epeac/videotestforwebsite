@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.parent {
+    top: 0;
+    padding: 0;
+    margin: auto;
+    height: 100vh;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    align-items: center;
+    position: relative;
+}
+
+.video {
+    height: 100%;
+    width: 177.77777778vh;
+    min-width: 100%;
+    min-height: 56.25vw;
+    background-size: cover;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+}
